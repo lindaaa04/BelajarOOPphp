@@ -1,0 +1,149 @@
+/* Atur body dan html untuk menggunakan seluruh layar */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* Atur posisi form login agar berada di tengah layar */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Gunakan seluruh tinggi layar */
+    background-color: #f0f4f8; /* Warna latar belakang lembut */
+}
+
+.login-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-box h1 {
+    font-size: 24px;
+    color: #ff02a6; /* Warna teks utama */
+    margin-bottom: 20px;
+}
+
+.login-box form input[type="text"],
+.login-box form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-box form button {
+    background-color: #ff02a6; /* Warna tombol pink */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-box form button:hover {
+    background-color: #cc0386; /* Warna tombol saat hover */
+}
+
+/* Styling pesan error */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Background halaman */
+
+body {
+    background-color: #f0f4f8; /* Warna latar belakang lembut */
+    color: #333; /* Warna teks */
+}
+
+/* Header */
+header {
+    background-color: #ff02a6; /* Biru yang menarik */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Section kendaraan */
+.section-kendaraan {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.kendaraan-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kendaraan-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.kendaraan-card h3 {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.kendaraan-card p {
+    margin: 0 15px 15px;
+    color: #555;
+}
+
+.kendaraan-card button {
+    background-color: #ff02a6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kendaraan-card button:hover {
+    background-color: #cc0386;
+}
+
+.logout-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Jarak dari katalog kendaraan */
+}
+
+.logout-btn {
+    background-color: #ff02a6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-btn:hover {
+    background-color: #cc0386;
+    transform: scale(1.05);
+}
